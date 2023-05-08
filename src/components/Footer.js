@@ -13,7 +13,7 @@ export default function Footer() {
         <Logout />
     }
     <footer className="text-center text-white bg-dark p-4">
-        <strong>&copy; {new Date().getFullYear()} All Rights Reserved</strong>
+        <strong>&copy; {new Date().getFullYear()} Will March. All Rights Reserved</strong>
     </footer>
     </>
   )

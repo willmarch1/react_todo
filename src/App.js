@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Login />}/>  
             <Route path='login' element={<Login />}/>  
-            <Route path='todos' element={<ToDos />}/>  
+            <Route path='todos' element={<ProtectedRoute><ToDos /> </ProtectedRoute>}/> 
             <Route path='categories' element={<ProtectedRoute><Categories /> </ProtectedRoute>}/>  
             <Route path='about' element={<About />}/>  
             <Route path='*' element={<NotFound />}/>  

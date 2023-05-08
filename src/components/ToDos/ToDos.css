@@ -1,0 +1,32 @@
+.todos table {
+    opacity: .9;
+}
+.todos table th {
+    font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+}
+.todos table tr td {
+    font-family: 'PT Serif', serif;
+    font-size: 1.2em;
+    padding: auto;
+}
+
+.createContainer{
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.todos h1, .categories h1 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px rgba(25, 25, 25, .7);
+}
+
+input.checkbox {
+    width: 2em;
+    height: 2em;
+    accent-color: #198754;
+}
