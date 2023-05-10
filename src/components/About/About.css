@@ -1,0 +1,36 @@
+
+
+.profilePic {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    max-height: 80%;
+}
+
+.about-text {
+        background: rgba(255, 255, 255, .75);
+        border-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        border: 8px solid transparent;
+}
+
+.about-text h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    color: #1387ca;
+    text-shadow: 3px 3px 10px #198754;
+    font-size: 3vw;
+    font-variant: small-caps;
+}
+
+.about-text p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 1em;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding: 1.5em;
+    padding-bottom: 0;
+}
